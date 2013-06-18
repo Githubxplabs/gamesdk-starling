@@ -1,5 +1,10 @@
 package gamesdk.module {
-	import starling.display.Sprite;
+	CONFIG::flash_display {
+		import flash.display.Sprite;
+	}
+	CONFIG::starling_display {
+		import starling.display.Sprite;
+	}
 	import flash.display.Stage;
 	
 	/**

@@ -16,8 +16,12 @@ package gamesdk.module {
 	import gamesdk.tools.ToolsMain;
 	import gamesdk.tools.handlers.Handler;
 	import gamesdk.tools.managers.ResType;
-	
-	import starling.display.Sprite;
+	CONFIG::flash_display {
+		import flash.display.Sprite;
+	}
+	CONFIG::starling_display {
+		import starling.display.Sprite;
+	}
 	
 	/**
 	 * 模块启动器

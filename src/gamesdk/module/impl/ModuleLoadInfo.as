@@ -6,8 +6,12 @@ package gamesdk.module.impl {
 	import gamesdk.module.core.IModuleConfig;
 	import gamesdk.module.core.IModuleLoadInfo;
 	import gamesdk.tools.ToolsMain;
-	
-	import starling.display.DisplayObject;
+	CONFIG::flash_display {
+		import flash.display.DisplayObject;
+	}
+	CONFIG::starling_display {
+		import starling.display.DisplayObject;
+	}
 	
 	/**
 	 * ...

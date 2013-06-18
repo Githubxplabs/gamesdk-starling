@@ -10,8 +10,14 @@ package gamesdk.module.impl {
 	import gamesdk.module.core.IScreenManager;
 	import gamesdk.tools.ToolsMain;
 	
-	import starling.display.DisplayObjectContainer;
-	import starling.display.Sprite;
+	CONFIG::flash_display {
+		import flash.display.DisplayObjectContainer;
+		import flash.display.Sprite;
+	}
+	CONFIG::starling_display {
+		import starling.display.DisplayObjectContainer;
+		import starling.display.Sprite;
+	}
 	
 	/**
 	 * 模块基类。

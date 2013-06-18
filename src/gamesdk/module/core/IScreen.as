@@ -1,5 +1,10 @@
 package gamesdk.module.core {
-	import starling.display.DisplayObjectContainer;
+	CONFIG::flash_display {
+		import flash.display.DisplayObjectContainer;
+	}
+	CONFIG::starling_display {
+		import starling.display.DisplayObjectContainer;
+	}
 	
 	/**
 	 * 游戏的屏幕接口

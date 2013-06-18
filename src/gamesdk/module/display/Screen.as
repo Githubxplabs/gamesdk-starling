@@ -6,9 +6,14 @@ package gamesdk.module.display {
 	import gamesdk.module.core.IReflector;
 	import gamesdk.module.core.IScreen;
 	import gamesdk.module.core.IScreenManager;
-	
-	import starling.display.DisplayObjectContainer;
-	import starling.display.Sprite;
+	CONFIG::flash_display {
+		import flash.display.DisplayObjectContainer;
+		import flash.display.Sprite;
+	}
+	CONFIG::starling_display {
+		import starling.display.DisplayObjectContainer;
+		import starling.display.Sprite;
+	}
 	
 	/**
 	 * ...

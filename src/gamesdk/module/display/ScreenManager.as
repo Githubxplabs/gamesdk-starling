@@ -3,8 +3,12 @@ package gamesdk.module.display {
 	import gamesdk.module.core.IScreen;
 	import gamesdk.module.core.IScreenManager;
 	import gamesdk.tools.ToolsMain;
-	
-	import starling.display.DisplayObject;
+	CONFIG::flash_display {
+		import flash.display.DisplayObject;
+	}
+	CONFIG::starling_display {
+		import starling.display.DisplayObject;
+	}
 	
 	/**
 	 * ...
