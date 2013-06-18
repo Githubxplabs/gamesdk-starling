@@ -174,13 +174,14 @@ package gamesdk.module.impl {
 			}
 		}
 		
-		protected function moduleDataInject(module:IModule):void {
-			var typeXML:XML = _reflector.getDescribeType(module);
+		protected function moduleDataInject(obj:Object):void {
+			var typeXML:XML = _reflector.getDescribeType(obj);
 			for each (var node:XML in typeXML.*.(name() == 'variable' || name() == 'accessor').metadata.(@name == 'InjectData')) {
 				var propertyType:String = node.parent().@type.toString();
 				var propertyName:String = node.parent().@name.toString();
 				var injectionName:String = node.arg.attribute('value').toString();
-				module[propertyName] = _moduleDataCenter.getDataProxyByObject(_reflector.getDefinition(propertyType), injectionName);
+				obj[propertyName] = _moduleDataCenter.getDataProxyByObject(_reflector.getDefinition(propertyType), injectionName);
+				moduleDataInject(obj[propertyName]);
 			}
 		}
 		

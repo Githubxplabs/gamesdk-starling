@@ -1,6 +1,7 @@
 package gamesdk.module {
 	import flash.display.DisplayObject;
 	import flash.display.LoaderInfo;
+	import gamesdk.module.core.IModule;
 	import starling.display.Sprite;
 	import gamesdk.module.core.IModuleConfigManager;
 	import gamesdk.module.core.IModuleDataCenter;

@@ -13,6 +13,10 @@ package gamesdk.module.core {
 		function set applicationDomain(value:ApplicationDomain):void;
 		function get isLocal():Boolean;
 		function set isLocal(value:Boolean):void;
+		function classExtendsOrImplements(classOrClassName:Object, superclass:Class):Boolean;
+		function getClass(value:*):Class
+		function getFQCN(value:*, replaceColons:Boolean = false):String;
+	
 	}
 
 }
