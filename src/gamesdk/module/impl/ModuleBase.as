@@ -1,16 +1,17 @@
 package gamesdk.module.impl {
-	import starling.display.DisplayObjectContainer;
 	import flash.display.Loader;
-	import starling.display.Sprite;
+	
+	import gamesdk.module.ModuleLauncher;
 	import gamesdk.module.core.IModule;
 	import gamesdk.module.core.IModuleConfigManager;
 	import gamesdk.module.core.IModuleDataCenter;
 	import gamesdk.module.core.IModuleManager;
 	import gamesdk.module.core.IReflector;
 	import gamesdk.module.core.IScreenManager;
-	import gamesdk.module.GlobalsVars;
-	import gamesdk.module.ModuleLauncher;
 	import gamesdk.tools.ToolsMain;
+	
+	import starling.display.DisplayObjectContainer;
+	import starling.display.Sprite;
 	
 	/**
 	 * 模块基类。

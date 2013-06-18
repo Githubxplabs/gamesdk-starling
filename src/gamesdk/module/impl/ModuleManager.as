@@ -1,5 +1,6 @@
 package gamesdk.module.impl {
 	import flash.utils.ByteArray;
+	
 	import gamesdk.module.core.IModule;
 	import gamesdk.module.core.IModuleConfig;
 	import gamesdk.module.core.IModuleManager;

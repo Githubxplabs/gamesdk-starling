@@ -3,6 +3,7 @@ package gamesdk.module.impl {
 	import flash.utils.describeType;
 	import flash.utils.getDefinitionByName;
 	import flash.utils.getQualifiedClassName;
+	
 	import gamesdk.module.core.IReflector;
 	
 	/**

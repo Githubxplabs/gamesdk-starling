@@ -1,8 +1,6 @@
 package gamesdk.module {
 	import flash.display.DisplayObject;
-	import flash.display.LoaderInfo;
-	import gamesdk.module.core.IModule;
-	import starling.display.Sprite;
+	
 	import gamesdk.module.core.IModuleConfigManager;
 	import gamesdk.module.core.IModuleDataCenter;
 	import gamesdk.module.core.IModuleManager;
@@ -15,9 +13,11 @@ package gamesdk.module {
 	import gamesdk.module.impl.ModuleManager;
 	import gamesdk.module.impl.RSLModuleManager;
 	import gamesdk.module.impl.Reflector;
+	import gamesdk.tools.ToolsMain;
 	import gamesdk.tools.handlers.Handler;
 	import gamesdk.tools.managers.ResType;
-	import gamesdk.tools.ToolsMain;
+	
+	import starling.display.Sprite;
 	
 	/**
 	 * 模块启动器

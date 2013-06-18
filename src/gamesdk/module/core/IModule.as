@@ -1,6 +1,7 @@
 package gamesdk.module.core {
-	import starling.display.DisplayObjectContainer;
 	import flash.display.Loader;
+	
+	import starling.display.DisplayObjectContainer;
 	
 	/**
 	 * 模块接口

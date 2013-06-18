@@ -1,9 +1,10 @@
 package gamesdk.module.display {
-	import starling.display.DisplayObject;
+	import gamesdk.module.GlobalsVars;
 	import gamesdk.module.core.IScreen;
 	import gamesdk.module.core.IScreenManager;
-	import gamesdk.module.GlobalsVars;
 	import gamesdk.tools.ToolsMain;
+	
+	import starling.display.DisplayObject;
 	
 	/**
 	 * ...

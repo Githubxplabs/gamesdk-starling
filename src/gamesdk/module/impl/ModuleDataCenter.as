@@ -1,6 +1,6 @@
 package gamesdk.module.impl {
-	import flash.system.ApplicationDomain;
 	import flash.utils.getQualifiedClassName;
+	
 	import gamesdk.module.core.IModuleDataCenter;
 	import gamesdk.tools.ToolsMain;
 	

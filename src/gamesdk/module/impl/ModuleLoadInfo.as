@@ -1,11 +1,13 @@
 package gamesdk.module.impl {
-	import starling.display.DisplayObject;
-	import gamesdk.module.core.IModule;
 	import flash.display.Loader;
+	
+	import gamesdk.module.GlobalsVars;
+	import gamesdk.module.core.IModule;
 	import gamesdk.module.core.IModuleConfig;
 	import gamesdk.module.core.IModuleLoadInfo;
-	import gamesdk.module.GlobalsVars;
 	import gamesdk.tools.ToolsMain;
+	
+	import starling.display.DisplayObject;
 	
 	/**
 	 * ...
